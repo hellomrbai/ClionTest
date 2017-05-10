@@ -43,7 +43,8 @@ MGraph CreateGraph(int VertexNum){
         }
     }
     return Graph;
-}void InsertEdge( MGraph Graph, Edge E )
+}
+void InsertEdge( MGraph Graph, Edge E )
 {
     /* 插入边 <V1, V2> */
     Graph->G[E->V1][E->V2] = E->Weight;
